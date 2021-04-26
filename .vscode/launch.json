@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Listen for xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+        },
+        {
+            "name": "Launch open script",
+            "type": "php",
+            "request": "launch",
+            "stopOnEntry": true,
+            "cwd": "${fileDirName}",
+            "runtimeExecutable": "H:\\Serveurs\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64\\php.exe",
+            "port": 9000
+        },
+        {
+            "name": "Attach",
+            "type": "firefox",
+            "request": "attach"
+        },
+        {
+            "name": "Launch WebExtension",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "addonPath": "${workspaceFolder}"
+        }
+    ]
+}

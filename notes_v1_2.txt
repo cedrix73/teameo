@@ -1,0 +1,8 @@
+﻿Mise à jour v1.1:
+- Enregistrement et représentation des demijournées d'inactivité
+- Affichage panel ajout des types d'activités
+- Ajout du filtre des ressources par secteur
+- Nouvelle classe d'abstraction DB pour postgreSql
+- Affichage du nombre de mois selon la taille d'écran
+- Loader.gif
+- Classe générique DBO qui remplace MySql
