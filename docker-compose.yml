@@ -1,4 +1,4 @@
-
+version: "1.29"
 database:
     image: bitnami/mysql:latest
     container_name: database
